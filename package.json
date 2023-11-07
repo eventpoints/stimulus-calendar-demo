@@ -11,7 +11,8 @@
     "stimulus-calendar": "^1.1.9"
   },
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "webpack --mode production"
   },
   "devDependencies": {
     "@babel/core": "7.18.10",
