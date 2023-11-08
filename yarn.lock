@@ -6062,10 +6062,10 @@ statuses@2.0.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==
 
-stimulus-calendar@^1.1.9:
-  version "1.1.9"
-  resolved "https://registry.yarnpkg.com/stimulus-calendar/-/stimulus-calendar-1.1.9.tgz#42ab7f1d2a650a4d43cc38b88b0423d4184b61ce"
-  integrity sha512-iLwpKCKMn3zTndE817r5TQQ872p7lXCM5T64Azxdpc6WqyZtyW24xPGSWB3wVFUix9YX3MTrgONiRfFTfJB8dg==
+stimulus-calendar@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/stimulus-calendar/-/stimulus-calendar-1.2.3.tgz#54a1a2f138f46867e72560e39c6afd55394e35dd"
+  integrity sha512-AkRdcPGrPUjip5IgMYSM5TwDElLv93Le2si57Whs4JzfeTHWMgmeO6WajkwXLrD4VzQpfAqiUOpclm1bIAfuKA==
   dependencies:
     autoprefixer "^10.4.16"
     css-loader "^6.8.1"

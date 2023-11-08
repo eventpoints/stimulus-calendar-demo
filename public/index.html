@@ -21,11 +21,17 @@
 <body>
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-4">
+        <div class="col-6" data-controller="demo">
             <h1 class="mt-5">Stimulus Calendar</h1>
-            <div class="form-floating mb-3" data-controller="calendar">
-                <input type="text" class="form-control" id="date-time" placeholder="date"
-                       data-calendar-target="dateInput">
+
+            <select data-action="change->demo#change"  class="form-select form-select-lg mb-3" aria-label="Large select example">
+                <option selected value="default_sc_theme">Default</option>
+                <option value="light_sc_theme">Light</option>
+                <option value="dark_sc_theme">Dark</option>
+            </select>
+
+            <div class="form-floating mb-3" data-controller="calendar" data-demo-target="output">
+                <input data-calendar-target="dateInput" type="text" class="form-control" id="date-time" placeholder="date">
                 <label for="date-time">Date & Time</label>
             </div>
         </div>
