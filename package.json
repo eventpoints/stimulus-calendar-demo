@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "stimulus-audio-player": "^1.1.5",
     "stimulus-calendar": "^1.2.3"
   },
   "scripts": {

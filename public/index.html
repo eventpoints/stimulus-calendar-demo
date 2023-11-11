@@ -15,26 +15,68 @@
             crossorigin="anonymous"></script>
     <title>Stimulus Calendar</title>
 
-    <script src="./bundle.js" ></script>
+    <script src="./bundle.js"></script>
 </head>
 
 <body>
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-6" data-controller="demo">
-            <h1 class="mt-5">Stimulus Calendar</h1>
-
-            <select data-action="change->demo#change"  class="form-select form-select-lg mb-3" aria-label="Large select example">
-                <option selected value="default_sc_theme">Default</option>
-                <option value="light_sc_theme">Light</option>
-                <option value="dark_sc_theme">Dark</option>
-            </select>
-
-            <div class="form-floating mb-3" data-controller="calendar" data-demo-target="output">
-                <input data-calendar-target="dateInput" type="text" class="form-control" id="date-time" placeholder="date">
-                <label for="date-time">Date & Time</label>
+    <div class="row justify-content-center mt-5">
+        <div class="col-12 col-md-4">
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#stimulus-calendar" type="button" role="tab" aria-controls="v-pills-home"
+                        aria-selected="true">Stimulus Calendar
+                </button>
+                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#stimulus-audio-player" type="button" role="tab" aria-controls="v-pills-profile"
+                        aria-selected="false">Stimulus Audio Player
+                </button>
             </div>
         </div>
+        <div class="col-md-8 tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="stimulus-calendar" role="tabpanel"
+                 aria-labelledby="v-pills-home-tab" tabindex="0">
+                <div data-controller="calendar-demo">
+
+                    <h1 class="mt-5">Stimulus Calendar</h1>
+
+                    <select data-action="change->calendar-demo#change" class="form-select form-select-lg mb-5"
+                            aria-label="Large select example">
+                        <option selected value="default_sc_theme">Default</option>
+                        <option value="light_sc_theme">Light</option>
+                        <option value="dark_sc_theme">Dark</option>
+                    </select>
+
+                    <div class="form-floating mb-3" data-controller="calendar" data-calendar-demo-target="output">
+                        <input data-calendar-target="dateInput" type="text" class="form-control" id="date-time"
+                               placeholder="date">
+                        <label for="date-time">Date & Time</label>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="stimulus-audio-player" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                 tabindex="0">
+                <div data-controller="audio-player-demo">
+                    <h1 class="mt-5">Audio player</h1>
+
+                    <select data-action="change->audio-player-demo#change" class="form-select form-select-lg mb-5"
+                            aria-label="Large select example">
+                        <option selected value="_saw_theme_default">Default</option>
+                        <option value="_saw_theme_light">Light</option>
+                        <option value="_saw_theme_dark">Dark</option>
+                    </select>
+
+                    <div data-controller="audio-player"
+                         data-audio-player-demo-target="output"
+                         data-audio-player-file-value="./audio-example.mp3"
+                         data-audio-player-theme-value="default"
+                         data-audio-player-is-recorder-value="false"
+                    >
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 </body>

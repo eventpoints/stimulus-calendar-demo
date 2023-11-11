@@ -1605,6 +1605,11 @@ angular-html-parser@1.4.0:
   dependencies:
     tslib "^1.9.3"
 
+animejs@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/animejs/-/animejs-3.2.1.tgz#de9fe2e792f44a777a7fdf6ae160e26604b0cdda"
+  integrity sha512-sWno3ugFryK5nhiDm/2BKeFCpZv7vzerWUcUPyAZLDhMek3+S/p418ldZJbJXo5ZUOpfm2kP2XRO4NJcULMy9A==
+
 ansi-align@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/ansi-align/-/ansi-align-3.0.1.tgz#0cdf12e111ace773a86e9a1fad1225c43cb19a59"
@@ -6061,6 +6066,18 @@ statuses@2.0.1:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==
+
+stimulus-audio-player@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/stimulus-audio-player/-/stimulus-audio-player-1.1.5.tgz#63d0d94c17e9af245d8fee98885d23dcdc977da0"
+  integrity sha512-HvEbzsvW6T4X0USESeN/dFMwcRIaL2oRyiWtO9i0orT+d9XPdrInHU0/fAr2/yGyteaBHspRnDRscYdd4GPE3Q==
+  dependencies:
+    animejs "^3.2.1"
+    autoprefixer "^10.4.16"
+    css-loader "^6.8.1"
+    postcss-loader "^7.3.3"
+    stimulus-use "^0.51.1"
+    style-loader "^3.3.3"
 
 stimulus-calendar@^1.2.3:
   version "1.2.3"
