@@ -6068,9 +6068,9 @@ statuses@2.0.1:
   integrity sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==
 
 stimulus-audio-player@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/stimulus-audio-player/-/stimulus-audio-player-1.1.5.tgz#63d0d94c17e9af245d8fee98885d23dcdc977da0"
-  integrity sha512-HvEbzsvW6T4X0USESeN/dFMwcRIaL2oRyiWtO9i0orT+d9XPdrInHU0/fAr2/yGyteaBHspRnDRscYdd4GPE3Q==
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/stimulus-audio-player/-/stimulus-audio-player-1.1.6.tgz#2fcc21a86dddac63da814e76ceea0b9bb5c8dce0"
+  integrity sha512-bmup6nBrj/fpggQdDLO1iTDAKCJsjaua+q5Phghbcc8zjOlHgnY2LydfQ+4Oey54o5m/A+bI7V6X6TlsuyczYQ==
   dependencies:
     animejs "^3.2.1"
     autoprefixer "^10.4.16"
